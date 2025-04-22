@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Training & Placement Management</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #d3cce3, #e9e4f0);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #7f00ff, #e100ff);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a0f9ff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-left: 6px solid #7f00ff;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }
+
+    .card h2 {
+      margin-bottom: 1rem;
+      color: #6200ea;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.2rem;
+      background: linear-gradient(to right, #00c9ff, #92fe9d);
+      color: #000;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #fc466b, #3f5efb);
+      color: white;
+    }
+
+    .about-section {
+      background: #f2f2f2;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .about-section h2 {
+      font-size: 2rem;
+      color: #4a148c;
+      margin-bottom: 1rem;
+    }
+
+    .about-section p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(to right, #7f00ff, #e100ff);
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Training & Placement Management System</h1>
+    <nav>
+      <a href="Dashboard.html">Dashboard</a>
+      <a href="student.html">Students</a>
+      <a href="company.html">Companies</a>
+      <a href="placement.html">Placements</a>
+      <a href="training.html">Training</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Student Records</h2>
+      <p>Manage student profiles, academic performance, certifications, and resumes efficiently.</p>
+      <a href="student.html" class="btn">View Students</a>
+    </div>
+
+    <div class="card">
+      <h2>Company Info</h2>
+      <p>Monitor company registrations, job profiles, eligibility, and selection criteria.</p>
+      <a href="company.html" class="btn">View Companies</a>
+    </div>
+
+    <div class="card">
+      <h2>Placement Stats</h2>
+      <p>Track placement outcomes, highest packages, success stories, and department-wise analysis.</p>
+      <a href="placement.html" class="btn">View Stats</a>
+    </div>
+
+    <div class="card">
+      <h2>Training Schedule</h2>
+      <p>Stay updated on upcoming training programs, technical sessions, and soft skills workshops.</p>
+      <a href="training.html" class="btn">View Schedule</a>
+    </div>
+  </div>
+
+  <section class="about-section" id="about">
+    <h2>About Us</h2>
+    <p>
+      Our Training & Placement Cell bridges the gap between students and the corporate world. We are committed to preparing students for industry challenges through well-structured training, active industry collaborations, and an inclusive placement strategy. Our goal is to empower students with the skills and opportunities to achieve their dream careers.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Training & Placement Cell | Crafted with 💜 and 💡</p>
+  </footer>
+
+</body>
+</html>

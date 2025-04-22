@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Companies | T&P Management</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f7f8fc;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #00c9ff, #92fe9d);
+      padding: 1rem 2rem;
+      color: white;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .company-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f4f6f9;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .company-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .company-card h2 {
+      color: #34495e;
+      font-size: 1.8rem;
+    }
+
+    .company-card p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .company-card button {
+      background-color: #34c759;
+      padding: 0.6rem 1.5rem;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .company-card button:hover {
+      background-color: #006f95;
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      background-color: #f4f6f9;
+      padding: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Companies Visited</h1>
+  
+  </header>
+
+  <div class="container">
+    <!-- Company 1 -->
+    <div class="company-card">
+      <div>
+        <h2>ABC Tech</h2>
+        <p>Role: Software Engineer</p>
+        <p>Package: ₹7,00,000</p>
+        <p>Eligibility: CGPA 7.0+</p>
+      </div>
+      <button>View Details</button>
+    </div>
+
+    <!-- Company 2 -->
+    <div class="company-card">
+      <div>
+        <h2>XYZ Corp</h2>
+        <p>Role: Data Scientist</p>
+        <p>Package: ₹8,00,000</p>
+        <p>Eligibility: CGPA 7.5+</p>
+      </div>
+      <button>View Details</button>
+    </div>
+
+    <!-- Company 3 -->
+    <div class="company-card">
+      <div>
+        <h2>DEF Industries</h2>
+        <p>Role: Business Analyst</p>
+        <p>Package: ₹6,50,000</p>
+        <p>Eligibility: CGPA 6.5+</p>
+      </div>
+      <button>View Details</button>
+    </div>
+
+    <!-- Add More Company Cards as Needed -->
+
+  </div>
+
+  <footer>
+    <p>© 2025 T&P Management | Companies | Built with ❤️</p>
+  </footer>
+
+</body>
+</html>

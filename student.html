@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal | T&P Management</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f7f8fc;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #00c9ff, #92fe9d);
+      padding: 1rem 2rem;
+      color: white;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .profile-header h2 {
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .profile-header button {
+      background-color: #00c9ff;
+      padding: 0.5rem 1.5rem;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .profile-header button:hover {
+      background-color: #006f95;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section h3 {
+      font-size: 1.6rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .section ul li {
+      background: #f4f6f9;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      background-color: #f4f6f9;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Student Portal</h1>
+
+  </header>
+
+  <div class="container">
+    <!-- Student Profile Header -->
+    <div class="profile-header">
+      <h2>Welcome, John Doe</h2>
+      <button>Edit Profile</button>
+    </div>
+
+    <!-- Academic Performance Section -->
+    <div class="section">
+      <h3>Academic Performance</h3>
+      <ul>
+        <li>CGPA: 8.2</li>
+        <li>Major: Computer Science</li>
+        <li>Specialization: Data Science</li>
+        <li>Graduation Year: 2026</li>
+      </ul>
+    </div>
+
+    <!-- Placement History Section -->
+    <div class="section">
+      <h3>Placement History</h3>
+      <ul>
+        <li>Company: ABC Tech | Role: Software Engineer | Package: ₹7,00,000</li>
+        <li>Company: XYZ Corp | Role: Data Analyst | Package: ₹6,50,000</li>
+      </ul>
+    </div>
+
+    <!-- Resume Upload Section -->
+    <div class="section">
+      <h3>Resume</h3>
+      <input type="file" name="resume" id="resume" />
+      <button style="background: #34c759; padding: 0.6rem 1.5rem; color: white; border-radius: 12px; margin-top: 1rem;">Upload Resume</button>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
